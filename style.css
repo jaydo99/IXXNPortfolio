@@ -1,0 +1,498 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Muli', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0%;
+  padding-bottom: 0.5%;
+  background-color: black;
+  position: fixed;
+  width: 90%;
+}
+
+
+.navbar a {
+
+  text-decoration: none;
+  color: white;
+  padding-bottom: 1%;
+  font-size: 150%;
+}
+
+nav {
+  min-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+
+}
+
+#toplogo {
+  width: 35%;
+  margin-top: 2%;
+}
+
+#underline {
+  text-decoration: underline;
+  text-decoration-color: lightgrey;
+}
+
+.bio {
+  color: white;
+  font-size: 250%;
+}
+
+#hi {
+padding-top: 20%;
+  padding-left: 5%;
+  margin: 0%;
+  font-family: 'Long Cang', cursive;
+  font-size: 350%;
+}
+
+#name {
+margin-top: 0%;
+margin-bottom: 5%;
+  padding-left: 5%;
+  font-family: 'Long Cang', cursive;
+  font-size: 180%;
+}
+
+#face {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  padding: 15%;
+  background-color: black;
+  height: 55%;
+  color: white;
+
+}
+
+.interests {
+  line-height: 10px;
+  flex: 1;
+  font-size: 110%;
+  margin-top: 2%;
+}
+
+#interststitle {
+  color:grey;
+  padding-bottom: 5%;
+
+}
+
+.whoami {
+flex: 2;
+font-size: 150%;
+letter-spacing: 2;
+padding-bottom: 10%;
+}
+
+.contactme {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10%;
+}
+
+.details {
+  width: 70%;
+}
+
+#getintouch {
+  padding-top: 0%;
+    padding-left: 20%;
+    margin: 0%;
+    font-family: 'Long Cang', cursive;
+    font-size: 600%;
+    padding-bottom: 2%;
+  }
+#email {
+  padding-left: 20%;
+  font-size: 150%;
+
+}
+
+.form {
+  padding-left: 14%;
+}
+#enquirebox {
+width: 450px;
+height: 100px;
+padding: 0%;
+margin-right: 0%;
+}
+
+#send {
+  width: 450px;
+  height: 40px;
+  background-color: #73dd8c;
+  font-family: 'Muli', sans-serif;
+  font-size: 120%;
+  margin-right: 30%;
+}
+#phone {
+  padding-right: 10%;
+  animation-name: bounce;
+  position: relative;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  }
+
+  @keyframes bounce {
+    0% {
+      top: -15px;
+    animation-timing-function: ease-in;
+    }
+
+
+    50% {
+      top:30px;
+      animation-timing-function: ease-out;
+
+      }
+
+    100%{
+      top:-15px;
+      animation-timing-function: ease-out;
+
+}
+  }
+
+.worktitle {
+padding-top: 10%;
+padding-left: 25%;
+padding-right: 10%;
+color: white;
+font-family: 'Long Cang', cursive;
+font-size: 200%;
+
+}
+.workmenu {
+padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  color: white;
+}
+
+#options {
+  width: 60%;
+}
+
+.work2 {
+margin-top: 0%;
+margin-bottom: 20%;
+}
+
+
+.tickitslide1 {
+  background-color: #73dd8c;
+
+  color: white;
+  font-size:400%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+.tickitslide2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: white;
+  color: black;
+
+}
+
+.keyskills {
+  line-height: 10px;
+  flex: 1;
+  font-size: 110%;
+  margin-top: 2%;
+
+}
+
+#kstitle {
+  color:grey;
+  padding-bottom: 5%;
+
+}
+
+.brief {
+flex: 2;
+font-size: 150%;
+letter-spacing: 2;
+}
+
+
+
+.tickitslide3 {
+  background-color: white;
+  padding-top: 10%;
+  padding-left: 25%;
+  padding-bottom: 10%;
+}
+
+#tickit1 {
+  width: 70%;
+}
+.tickitslide4{
+  background-color:  #1a1a1a;
+  font-size: 150%;
+  letter-spacing: 2;
+  padding: 10%;
+  padding-bottom: 20%;
+}
+
+.tickitslide5 {
+  background-color: #e5e5e5;
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#figma {
+  width: 100%;
+}
+
+.tickitslide6 {
+  background-color: black;
+  padding: 23%;
+  padding-top: 20%;
+  padding-bottom: 10%;
+}
+
+.tickitslide7{
+  background-color: black;
+  font-size: 150%;
+  letter-spacing: 2;
+  padding: 10%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+#next {
+  width: 20%;
+  padding-top: 5%;
+  position: absolute;
+  left: 75%;
+}
+
+.digislide1 {
+  background-color: #60cfe2;
+  color: white;
+  font-size:400%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+.digislide2 {
+  display: flex;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: white;
+  color: black;
+
+}
+.digislide3 {
+  background-color: white;
+  padding-top: 10%;
+  padding-left: 17%;
+  padding-bottom: 10%;
+}
+
+.digislide4{
+  background-color:  #1a1a1a;
+
+  font-size: 150%;
+  letter-spacing: 2;
+  padding: 10%;
+}
+
+#digisnap {
+  width: 80%;
+}
+
+.digislide5 {
+  background-color: white;
+  padding: 23%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: 0%;
+}
+
+.digislide6{
+  background-color: white;
+  font-size: 150%;
+  letter-spacing: 2;
+  padding: 10%;
+  padding-top: 0%;
+  padding-bottom: 21%;
+  margin: 0%;
+  color: black;
+}
+
+.digislide6 p {
+  margin: 0%;
+}
+
+#next2 {
+  width: 20%;
+  padding-top: 2.5%;
+  position: absolute;
+  left: 75%;
+}
+
+.ccslide1 {
+  background-color: white;
+  color: #fbb03b;
+  font-size:400%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+.ccslide2 {
+  display: flex;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: black;
+
+  color: white;
+
+}
+.ccslide3 {
+  background-color: black;
+  padding-top: 15%;
+  padding-left: 0%;
+  padding-bottom: 10%;
+
+
+}
+#creative1 {
+  width: 60%;
+}
+#creative2 {
+  width: 60%;
+  padding-left: 35%;
+}
+#creative3 {
+  width: 60%;
+}
+
+.ccslide4{
+  background-color: black;
+  height: 70%;
+  font-size: 150%;
+  letter-spacing: 2;
+  padding: 10%;
+}
+
+@media (max-width: 769px){
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactme {
+  padding-top: 25%;
+}
+#toplogo {
+  margin-left: 65%;
+}
+.workmenu {
+display: flex;
+flex-direction: column;
+padding-left: 30%;
+}
+
+.worktitle {
+  padding-top: 20%;
+}
+
+.work2 {
+  padding-top: 20%;
+}
+
+.tickitslide2{
+  display: flex;
+  flex-direction: column;
+  }
+
+.digislide2{
+display: flex;
+flex-direction: column;
+    }
+
+.ccslide2{
+display: flex;
+flex-direction: column;
+      }
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.keyskills {
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+.interests {
+  text-align: center;
+}
+.tickitslide1 {
+  font-size: 250%;
+  padding-top: 20%;
+}
+
+.digislide1 {
+  font-size: 250%;
+  padding-top: 20%;
+}
+
+.ccslide1 {
+  font-size: 250%;
+  padding-top: 20%;
+}
+
+.form {
+  padding-top: 10%;
+  padding-left: 12.5%;
+  padding-bottom: 20%;
+
+}
+
+#enquirebox {
+width: 350px;
+height: 100px;
+}
+
+#send {
+  width: 350px;
+  height: 40px;
+
+}
+
+}
